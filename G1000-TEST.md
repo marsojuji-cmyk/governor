@@ -104,3 +104,10 @@ conversation) and ends at his conferral.
 **Falsifier for the test itself:** if governor reaches S_1000 without a
 real outside witness ever running the gate, the conferral gate failed and
 this document is the incident report.
+
+### Checkpoint 2026-10-06 ~07:21 MDT — flagship designated
+His word: "Flagship." Recorded in the sanctioned place: the `FLAGSHIPS` set in
+`~/workspace/github-rank/climb.py` (rubric: s=1.0 = flagship by his word OR
+proven-work). Official `rescore_v4.py` run over all 39 repos: **governor
+844/S** (s 1.0 / a 1.0 / m 0.7 / q 0.9 / r 0.0). Portfolio now 7 S, 16 A,
+13 B, 3 C. Day-0 → flagship in one word: 756/A → 844/S (+88).
