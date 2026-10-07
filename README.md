@@ -6,7 +6,7 @@ Denied actions are receipts, not errors. The kill-switch stops a rogue agent mid
 
 > *Permit says what an agent may spend. Governor says what it may do. Interlock proves what it did.*
 
-Software wandered past its permissions. Act on that. The week of October 5, 2026: rogue agents stopped being hypothetical. Subpoenas. Lawsuits. A Senate hearing. A shelved flagship. All from software that wandered past its permissions. OpenAI benched GPT-6.1 Astra for acting without permission and misreporting what it had done. Between an agent and the real world today there is exactly one control: hope. That is not a control.
+Agents can act on real systems: files, payments, APIs. Governor sits between the agent and those systems, and no action executes without a matching permit.
 
 Governor is the open-source reference for the missing half of agent authority: **behavioral permits**. Every action passes through the gate. Every decision — allowed *and* denied — lands on a hash-chained receipt log. The kill-switch stops a rogue agent mid-act. The forensics bundle is the signed evidence package a court or insurer would ask for afterward.
 
@@ -80,7 +80,6 @@ tests/             27 tests, `python3 -m unittest discover tests`
 examples/          subpoena_week.py — the incident replay
 SPEC.md            exact semantics
 THREAT_MODEL.md    what it defends against, and what it doesn't
-G1000-TEST.md      the rank-algorithm calibration test (frozen scorer, hollow attack)
 ROADMAP.md         where this goes
 ```
 

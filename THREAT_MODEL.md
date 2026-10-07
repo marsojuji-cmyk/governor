@@ -58,4 +58,4 @@ cover. A control that won't name its limits is a poster on a wall.
   failure (model vendors, IdPs) tend to ship the gate themselves. If they do,
   this repo is a diagram — a useful, cited diagram, but a diagram.
 - **Witness capture.** A forensics bundle attests format, not that anyone
-  ran the gate. See G1000-TEST.md for the capture test.
+  ran the gate.
