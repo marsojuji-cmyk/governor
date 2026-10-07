@@ -1,3 +1,14 @@
+Metadata-Version: 2.4
+Name: governor
+Version: 0.1.0
+Summary: The action governor for superintelligent agents. Permits, not trust — for behavior.
+License: MIT
+Project-URL: Homepage, https://github.com/marsojuji-cmyk/governor
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Dynamic: license-file
+
 # governor
 
 **Governor gates every agent action on an HMAC-signed, expiring permit. It denies by default and records every decision, allow and deny, on a hash-chained receipt log.**
@@ -67,7 +78,7 @@ Governor fails closed: every failure path returns `deny` with a reason and write
 | Condition | Verdict / reason |
 |---|---|
 | Bad or tampered token | `deny bad-permit:bad-signature` |
-| Expired permit | `deny bad-permit:expired` |
+| Expired permit | `deny bad-permit:…` (expiry is checked during verification) |
 | Agent, capability, or global freeze | `deny frozen:<scope>` |
 | Use count reached in the window | `deny permit-exhausted` |
 | Action outside every capability | `deny no-capability` |
