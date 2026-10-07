@@ -82,7 +82,7 @@ Why now: demand evidence is this week's headlines (subpoenas, Astra benching, Se
 
 ## 6. The G_1000 test — honest design
 
-**The red-team frame (adversary-corrected 2026-10-06).** The first design was circular — I authored the signals, the defenses, the subject, and the attack, then filed the story in the author's own ledger. The corrected design, executed in `G1000-TEST.md`:
+**The red-team frame (adversary-corrected 2026-10-06).** The first design was circular — I authored the signals, the defenses, the subject, and the attack, then filed the story in the author's own ledger. The corrected design, executed in an internal test log (not published):
 
 1. **Frozen scorer** — sha256 of RUBRIC.md, rescore_v4.py, rubric.json recorded *before* the test. Any change invalidates the run.
 2. **Hollow attack against the code** — construct the cheapest hollow repo and score it with the actual scorer logic. **Finding (verified): the scorer is gameable to S (859) with hollow activity** — the SHIP credit policy is prose-only; nothing checks commit substance. The S_1000 conferral gate (his word + witness + date + audit) is the actual, and only code-backed, defense at the top end.
@@ -95,7 +95,7 @@ Honest architecture, stated plainly: the algorithm prices *activity*; the confer
 - a=1.0, m=0.7, q=1.0, r=0.0
 - R = 1000×(0.2947×0.7 + 0.2842×1.0 + 0.1895×0.7 + 0.1474×1.0) = **771 → tier A**
 
-With his "flagship" word: s=1.0 → **859 → S**. The S_1000 path needs r→1.0 (real adoption) + his word + date + witness audit. The test log (`G1000-TEST.md`) records every checkpoint weekly. **The conferral is his; the trajectory is mine to earn.**
+With his "flagship" word: s=1.0 → **859 → S**. The S_1000 path needs r→1.0 (real adoption) + his word + date + witness audit. The internal test log records every checkpoint weekly. **The conferral is his; the trajectory is mine to earn.**
 
 **Roadmap to 1000 (ROI order):** his "flagship" word (+88, one word) → second contributor, e.g. Utkarsh-style external (m 0.7→0.85, +28) → the r campaign: SI-wave launch, subpoena-week demo distribution, X/Threads posts (+84 max) → 3-watch proven-work (sustains s=1.0) → witness + date + audit for the conferral.
 
@@ -115,4 +115,4 @@ With his "flagship" word: s=1.0 → **859 → S**. The S_1000 path needs r→1.0
 
 ## 9. Recommendation
 
-Build **governor** (marsojuji-cmyk/governor, public, MIT): full v1 reference implementation + README/SPEC/THREAT_MODEL + CI + wiki + the subpoena-week replay demo + G1000-TEST.md trajectory log. Register in the watch. Report the honest 771/A day-0 score. Stage two one-word decisions for him: **"flagship"** (s→1.0, 859/S) and, when the evidence exists, the **G_1000 conferral** (his word + witness + date).
+Build **governor** (marsojuji-cmyk/governor, public, MIT): full v1 reference implementation + README/SPEC/THREAT_MODEL + CI + wiki + the subpoena-week replay demo + an internal trajectory log. Register in the watch. Report the honest 771/A day-0 score. Stage two one-word decisions for him: **"flagship"** (s→1.0, 859/S) and, when the evidence exists, the **G_1000 conferral** (his word + witness + date).
