@@ -67,7 +67,7 @@ Governor fails closed: every failure path returns `deny` with a reason and write
 | Condition | Verdict / reason |
 |---|---|
 | Bad or tampered token | `deny bad-permit:bad-signature` |
-| Expired permit | `deny bad-permit:…` (expiry is checked during verification) |
+| Expired permit | `deny bad-permit:expired` |
 | Agent, capability, or global freeze | `deny frozen:<scope>` |
 | Use count reached in the window | `deny permit-exhausted` |
 | Action outside every capability | `deny no-capability` |
